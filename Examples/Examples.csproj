@@ -54,7 +54,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExcelImporter\OpenXml.csproj">
+    <ProjectReference Include="..\OpenXmlImport\OpenXml.csproj">
       <Project>{D217FF9C-D017-4D16-84FC-7FA84D8F5E81}</Project>
       <Name>OpenXml</Name>
     </ProjectReference>
