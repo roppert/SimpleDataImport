@@ -8,3 +8,5 @@ simple data store.
 
 
 ## Example usage
+
+See Examples/Program.cs
