@@ -79,7 +79,11 @@ namespace Examples
         static void Main(string[] args)
         {
             string path = "../../test.xlsx";
-            //string sheetname = "Priser";
+            System.Console.WriteLine(args.Length);
+            if (args.Length == 1)
+                path = args[0];
+            System.Console.WriteLine(path);
+
             var edi = new OpenXmlImport<NamedEntry>(path);
             List<NamedEntry> data = edi.Import();
             foreach (NamedEntry row in data)
